@@ -1,0 +1,10 @@
+@import '_colors.scss';
+
+.content {
+  background-color: #F2F2F2;
+  height: calc(100vh - 64px);
+}
+
+.dark .content {
+  background-color: #424242;
+}

@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+import { PageLayoutComponent } from './core/layout/page-layout/page-layout.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: "", component: PageLayoutComponent, children: [] }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

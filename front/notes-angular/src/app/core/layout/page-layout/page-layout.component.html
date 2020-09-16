@@ -1,0 +1,7 @@
+<div class="mat-app-background" [class.dark]="darkThemeSelected">
+    <app-navbar (sliderChanged)="applyTheme($event)"></app-navbar>
+
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+</div>
